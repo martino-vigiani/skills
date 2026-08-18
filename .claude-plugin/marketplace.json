@@ -1,0 +1,46 @@
+{
+  "name": "subralabs",
+  "description": "Skill e subagent per Claude Code estratti da un repo di lavoro vero: performance misurata, verifica che puo' fallire, testing Swift, scrittura.",
+  "owner": {
+    "name": "Martino Vigiani",
+    "email": "martino@subralabs.com"
+  },
+  "plugins": [
+    {
+      "name": "core-agents",
+      "source": "./plugins/core-agents",
+      "description": "Quattro subagent generici: due fixer con scope esplicito, un lookup read-only, un verificatore che prova a refutare invece di confermare",
+      "version": "0.1.0",
+      "author": {
+        "name": "Martino Vigiani"
+      }
+    },
+    {
+      "name": "optimize-app",
+      "source": "./plugins/optimize-app",
+      "description": "Passata di performance misurata: baseline prima di toccare, un fix alla volta, tabella finale dove ogni riga ha due numeri veri o dice non misurato",
+      "version": "0.1.0",
+      "author": {
+        "name": "Martino Vigiani"
+      }
+    },
+    {
+      "name": "swift-quality",
+      "source": "./plugins/swift-quality",
+      "description": "Testing Swift e reference SwiftUI: unit, regressione, XCUITest end-to-end, e le API nuove di iOS 27",
+      "version": "0.1.0",
+      "author": {
+        "name": "Martino Vigiani"
+      }
+    },
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "description": "Scrittura: riscrivere un testo perche' suoni di una persona vera, e scrivere una mail che convince davvero",
+      "version": "0.1.0",
+      "author": {
+        "name": "Martino Vigiani"
+      }
+    }
+  ]
+}

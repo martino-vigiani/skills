@@ -1,0 +1,9 @@
+{
+  "name": "swift-quality",
+  "description": "Testing Swift e reference SwiftUI: unit, regressione, XCUITest end-to-end, e le API nuove di iOS 27",
+  "version": "0.1.0",
+  "author": {
+    "name": "Martino Vigiani",
+    "email": "martino@subralabs.com"
+  }
+}

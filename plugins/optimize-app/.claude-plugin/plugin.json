@@ -1,0 +1,9 @@
+{
+  "name": "optimize-app",
+  "description": "Passata di performance misurata: baseline prima di toccare, un fix alla volta, tabella finale dove ogni riga ha due numeri veri o dice non misurato",
+  "version": "0.1.0",
+  "author": {
+    "name": "Martino Vigiani",
+    "email": "martino@subralabs.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "core-agents",
+  "description": "Quattro subagent generici: due fixer con scope esplicito, un lookup read-only, un verificatore che prova a refutare invece di confermare",
+  "version": "0.1.0",
+  "author": {
+    "name": "Martino Vigiani",
+    "email": "martino@subralabs.com"
+  }
+}
