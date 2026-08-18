@@ -1,6 +1,6 @@
 {
   "name": "writing",
-  "description": "Scrittura: riscrivere un testo perche' suoni di una persona vera, e scrivere una mail che convince davvero",
+  "description": "humanize: riscrive un testo perche' suoni di una persona vera invece che di un modello, senza toccare i fatti",
   "version": "0.1.0",
   "author": {
     "name": "Martino Vigiani",

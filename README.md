@@ -16,7 +16,7 @@ After the `add`, `/plugin marketplace` lists what's inside before you commit to 
 
 ## Read this before you install
 
-**Most of it is written in Italian.** The agent definitions in `core-agents`, the `optimize-app` skill and its references, the two Swift agents, and `humanize` are all Italian prose. `persuade-mail` and the SwiftUI 27 reference are English.
+**Most of it is written in Italian.** The agent definitions in `core-agents`, the `optimize-app` skill and its references, the two Swift agents, and `humanize` are all Italian prose. The SwiftUI 27 reference is English.
 
 That's a choice, not an oversight. These are written the way I'd say them, and the sharp lines are sharp because I wrote them in my own language. Translated, they'd read like every other skill pack. Claude reads Italian fine and answers you in whatever language you're working in, so in practice this affects you when you open the files to edit them, not when you use them.
 
@@ -87,11 +87,7 @@ The `swiftui-whats-new-27` skill is Apple's published SDK 27 guidance, not mine 
 
 `humanize` rewrites text so it sounds like a person instead of a model. Style only, never content: same facts, same numbers, same structure, same register, same language. It works out the type and the language on its own, keeps a formal client email formal, doesn't warm up technical documentation, and never swaps accented characters for ASCII. The rewrite runs on a Sonnet subagent against a rules file; the orchestrating model checks what comes back for lost facts and re-runs if it finds any.
 
-`persuade-mail` writes a mail that moves the reader — cold outreach, or convincing a client on price or scope. It opens on the reader's situation, proves value with checkable specifics, and gives one clear ask. The humanize pass runs in the same shot.
-
-The rule I'd keep even if you take nothing else from it: **never invent proof**. The dangerous fabrication isn't the wild claim, you'd catch that one. It's the plausible derived number — a day count you reasoned your way to, a percentage that "must be roughly right". Those slip past because they feel like inference. So when the argument rests on numbers, they get pulled from the source first and tagged with where they came from, and anything unconfirmed stays a visible placeholder.
-
-For anything that moves real money there's an optional loop: one subagent plays the recipient in character and reports whether they'd accept or counter and with what figure, another hunts arrogance, self-pity, salesman prose and contradictions, and checks the arithmetic the reader will do. Re-judge with a **fresh** persona each round — one that has already read a version rates the next on improvement instead of merit.
+That last check is the part that matters. A rewrite pass is the easiest place to lose a number or soften a commitment without anyone noticing, because the result reads better than what went in.
 
 ## What you won't find here
 
