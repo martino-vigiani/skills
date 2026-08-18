@@ -1,12 +1,12 @@
-# subralabs-skills
+# skills
 
 Skill e subagent per Claude Code, estratti da un repo di lavoro vero e ripuliti per essere usati altrove.
 
 Sono quattro plugin separati. Si installano uno alla volta: nessuno ti obbliga a prendere il resto.
 
 ```
-/plugin marketplace add martino-vigiani/subralabs-skills
-/plugin install optimize-app@subralabs
+/plugin marketplace add martino-vigiani/skills
+/plugin install optimize-app@martino-vigiani
 ```
 
 Per vedere cosa c'è dentro prima di installare, `/plugin marketplace` dopo l'`add`.
