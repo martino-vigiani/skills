@@ -8,10 +8,10 @@ Four Claude Code plugins for code maintenance, performance work, Swift testing a
 |---|---|---|
 | [core-agents](plugins/core-agents/agents/) | `fixer`, `fixer-quick`, `explore`, `verifier` | Scoped edits, read-only code lookup and checking claims against source. |
 | [optimize-app](plugins/optimize-app/skills/optimize-app/SKILL.md) | Performance workflow and iOS, web and backend references | Record a baseline, change one thing, then compare measured results. |
-| [swift-quality](plugins/swift-quality/) | `swift-test-expert`, `e2e-tester` and SwiftUI reference notes | Swift unit and UI tests, regression checks and SDK-specific guidance. |
+| [swift-quality](plugins/swift-quality/) | `swift-test-expert`, `e2e-tester` | Swift unit and UI tests and regression checks. |
 | [writing](plugins/writing/skills/humanize/SKILL.md) | `humanize` and its style rules | Rewrite prose while preserving its facts, language and register. |
 
-Most agent and workflow instructions are written in Italian. The SwiftUI reference notes are in English. The marketplace currently lists version `0.1.0` for all four plugins.
+Most agent and workflow instructions are written in Italian. The marketplace currently lists version `0.1.0` for all four plugins.
 
 ## Install
 
@@ -44,11 +44,11 @@ To change a plugin, edit its definition and keep its marketplace entry and plugi
 
 ## Credits and license
 
-The SwiftUI reference package identifies its guidance as Apple material; its attribution remains in the source files. These separate projects are useful references and are not bundled here:
+These separate projects are useful references and are not bundled here:
 
 - [impeccable](https://github.com/pbakaus/impeccable), by Paul Bakaus.
 - [app-store-review](https://github.com/JustinPerea/app-store-review-skill), by Justin Perea.
 - [make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better), by Jakub Krehel.
 - [taste-skill](https://github.com/Leonxlnx/taste-skill), by Leonxlnx.
 
-[MIT](LICENSE). Maintained by Martino Vigiani. Contact: martino@subralabs.com.
+[MIT](LICENSE). Maintained by Martino Vigiani. Contact: martino.vigiani@icloud.com.
